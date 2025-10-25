@@ -1,1 +1,0 @@
-# PPMA-Competition
