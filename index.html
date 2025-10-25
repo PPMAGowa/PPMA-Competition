@@ -35,20 +35,19 @@
             overflow-x: hidden;
         }
 
-        /* Background Pattern with Parallax Effect */
+        /* Background Pattern - Proportional Display */
         body::before {
             content: '';
             position: fixed;
-            top: -10%;
-            left: -10%;
-            width: 120%;
-            height: 120%;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
             background-image: url('masjid.jpg');
-            background-size: cover;
-            background-position: center;
+            background-size: contain;
+            background-position: center top;
             background-repeat: no-repeat;
             z-index: -2;
-            animation: subtleZoom 20s ease-in-out infinite alternate;
         }
 
         /* Gradient Overlay with Islamic Theme */
