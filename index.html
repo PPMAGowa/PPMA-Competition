@@ -35,7 +35,7 @@
             overflow-x: hidden;
         }
 
-        /* Background Pattern - Proportional Display */
+        /* Background Pattern - Full Cover Display */
         body::before {
             content: '';
             position: fixed;
@@ -44,8 +44,8 @@
             width: 100%;
             height: 100%;
             background-image: url('masjid.jpg');
-            background-size: contain;
-            background-position: center top;
+            background-size: cover;
+            background-position: center center;
             background-repeat: no-repeat;
             z-index: -2;
         }
